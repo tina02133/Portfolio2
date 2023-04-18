@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 .navbar{
     float: none;
 }
@@ -28,7 +32,7 @@
 }
 
 .menu-bar:hover i{
-    transform: translateX(-100px);
+    transform: translateX(-120px);
     transition: all 1s;
 }
 
@@ -45,10 +49,10 @@
     float: none;
 }
 
-.menu-select{
+/* .menu-select{
     display: flex;
     margin: 15px;
-}
+} */
 .menu-select-box{
     font-size: x-large;
     color: white;
@@ -56,16 +60,22 @@
 
 }
 
-.menu-select-box i{
-    padding: 10px;
-    margin-left: 30px;
+
+.menu-select{
+    display: flex;
 } 
 
-.menu-select-box text{
-    text-align: left;
-    padding: 10px;
-    margin-right: 30px;
+.menu-select p{
+    margin-right: 50px;
+    margin-bottom: 30px;
+    /*flex 자식요소에 해당 코드 추가 시 
+    각각의 폭도 동일하게 적용  */
+    flex: 1;
 } 
+
+.menu-select i{
+    padding-top: 10px;
+}
 
 .content-title{
     padding: 30px;
