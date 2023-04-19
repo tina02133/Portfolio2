@@ -17,10 +17,10 @@ body{
 }
 
 .menu-bar{
-    height: 700px;
+    height: 730px;
     width: 200px;
     float: left;
-    background: blueviolet;
+    background: #8b00ff;
     transform: translateX(-130px);
     transition: all 1s;
     position: sticky;
@@ -43,7 +43,7 @@ body{
 
 
 .content-box{
-    height: 700px;
+    height: 730px;
     width: 100%;
     background-color: lightgrey;
     float: none;
@@ -147,6 +147,8 @@ body{
 .lorem-box{
     float: left;
 }
+
+
 
 @keyframes 흔들흔들{
     0%{

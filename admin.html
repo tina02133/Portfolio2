@@ -88,16 +88,16 @@
                     <script>
                         var ctx = document.getElementById('myChart').getContext('2d');
                         var myChart = new Chart(ctx, {
-                            type: 'line',
+                            type: 'bar',
                             data: {
                                 labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
                                 datasets: [{
                                     label: '# of Votes',
                                     data: [12, 19, 3, 5, 2, 3],
-                                    fill: true,
                                     backgroundColor: 'rgba(255, 99, 132, 0.2)',
                                     borderColor: 'rgba(255, 99, 132, 1)',
-                                    borderWidth: 1
+                                    borderWidth: 1,
+                                    fill: true
 
                                 }]
                             },
@@ -141,24 +141,6 @@
                 <!-- end .list-box -->
             </div>
             <!-- end .chart-list-box  -->
-            <div class="lorem-box">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam doloremque eius totam! Sit
-                    accusantium totam, ipsam error illum eaque, deserunt atque vitae excepturi culpa tenetur inventore?
-                    Quam maxime nam itaque.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam doloremque eius totam! Sit
-                    accusantium totam, ipsam error illum eaque, deserunt atque vitae excepturi culpa tenetur inventore?
-                    Quam maxime nam itaque.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam doloremque eius totam! Sit
-                    accusantium totam, ipsam error illum eaque, deserunt atque vitae excepturi culpa tenetur inventore?
-                    Quam maxime nam itaque.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam doloremque eius totam! Sit
-                    accusantium totam, ipsam error illum eaque, deserunt atque vitae excepturi culpa tenetur inventore?
-                    Quam maxime nam itaque.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam doloremque eius totam! Sit
-                    accusantium totam, ipsam error illum eaque, deserunt atque vitae excepturi culpa tenetur inventore?
-                    Quam maxime nam itaque.</p>
-            </div>
-
         </div>
         <!-- end .content box -->
     </div>
